@@ -18,15 +18,16 @@ $(document).ready(function ($) {
 
 //End TABS HEADER
 
-// Google searcher fake
-/*var destinations = document.querySelectorAll("[data-attribute='somePlaceholder']");
+//  Google searcher fake
+var destinations = document.querySelectorAll("[data-attribute='somePlaceholder']");
 
  var searcher = document.getElementById("google-search");
 
- searcher.addEventListener('input', event => {
+  searcher.addEventListener('input', event => {
    destinations.forEach(destination => destination.textContent = searcher.value);
-});*/
-// End Google searcher fake
+});
+
+// // End Google searcher fake
 
 // Show-hide google-searcher-block
 $(document).ready(function () {
